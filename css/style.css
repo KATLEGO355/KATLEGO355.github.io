@@ -58,7 +58,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         /*--banner--*/
         
         .header {
-            background: url(../images/ab.jpg) no-repeat;
+            background-color: #000;
             width: 100%;
             background-size: cover;
             min-height: 750px;
