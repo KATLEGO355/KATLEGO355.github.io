@@ -3,12 +3,12 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
-
+        
         body {
             background: #fff;
-  font-family: 'Source Sans Pro', sans-serif;
+            font-family: 'Source Sans Pro', sans-serif;
         }
-
+        
         body a {
             transition: 0.5s all;
             -webkit-transition: 0.5s all;
@@ -16,12 +16,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             -moz-transition: 0.5s all;
             -ms-transition: 0.5s all;
         }
-
+        
         ul {
             padding: 0;
             margin: 0;
         }
-
+        
         h1,
         h2,
         h3,
@@ -31,52 +31,51 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         label,
         p {
             margin: 0;
-
         }
-
+        
         .logo {
             float: left;
         }
-
+        
         .logo a {
             color: #fff;
             text-decoration: none;
         }
-
+        
         .logo a img {
             margin: 0px 4px;
         }
-
+        
         .nav-icon {
             float: right;
             margin-top: 1.5em;
         }
-
+        
         i.glyphicon.glyphicon-menu-hamburger {
             color: #fff;
             font-size: 2em;
         }
         /*--banner--*/
-
+        
         .header {
-            background: url(../images/2.jpg) no-repeat left;
+            background: url(../images/2.JPG) no-repeat left;
             width: 100%;
             background-size: cover;
             min-height: 750px;
             display: block;
             padding-top: 1em;
         }
-
+        
         .head {
             min-height: 89px;
         }
         /*--banner--*/
-
+        
         .banner {
             text-align: center;
             margin-top: 10em;
         }
-
+        
         .banner h2 {
             color: #CD853F;
             font-size: 3em;
@@ -87,26 +86,26 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             font-weight: 700;
             font-family: 'Source Sans Pro', sans-serif;
         }
-
+        
         .banner p {
             font-size: 1.2em;
             color: #fff;
             text-transform: uppercase;
         }
-
+        
         .banner label {
             width: 78px;
             height: 2px;
             background-color: #fff;
             margin: 2em 0;
         }
-
+        
         .down {
             margin-top: 8em;
             display: block;
         }
         /*--content--*/
-
+        
         .hover-fold {
             background: #00FF7F;
             height: 300px;
@@ -117,7 +116,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             position: relative;
             width: 100%;
         }
-
+        
         .hover-fold h4 {
             border-bottom: 3px double #fff;
             margin: 0 40px;
@@ -125,7 +124,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             color: #fff;
             font-size: 2em;
         }
-
+        
         .hover-fold .top {
             height: 50%;
             -moz-transition: all 0.5s ease-out;
@@ -148,27 +147,27 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             width: 100%;
             z-index: 10;
         }
-
+        
         .hover-fold .top .face {
             -moz-backface-visibility: hidden;
             -webkit-backface-visibility: hidden;
             backface-visibility: hidden;
             position: absolute;
         }
-
+        
         .hover-fold:hover .top {
             -moz-transform: rotateX(-180deg);
             -ms-transform: rotateX(-180deg);
             -webkit-transform: rotateX(-180deg);
             transform: rotateX(-180deg);
         }
-
+        
         .hover-fold .front {
             height: 100%;
             /*has to be 100% of .top */
             width: 100%;
         }
-
+        
         .hover-fold .back {
             background: #00FF7F;
             height: 100%;
@@ -180,14 +179,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             transform: rotateX(180deg);
             width: 100%;
         }
-
+        
         .hover-fold .back p {
             margin: 0;
             color: #fff;
             font-size: 1.15em;
             line-height: 2em;
         }
-
+        
         .hover-fold .bottom {
             height: 50%;
             position: absolute;
@@ -196,38 +195,38 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             z-index: 0;
         }
         /*--content--*/
-
+        
         .content-top-top {
             padding: 6em 0;
         }
-
+        
         .content-top {
             padding: 0em 0 4em;
         }
-
+        
         .content-left h3 {
             font-size: 3em;
             color: #00FF7F;
             font-family: 'Ubuntu', sans-serif;
             font-weight: 700;
         }
-
+        
         .content-left span {
             font-size: 2em;
             color: #000;
         }
-
+        
         .content-right p {
             font-size: 1.15em;
             color: #777;
             line-height: 2em;
         }
-
+        
         .content-left label {
             display: block;
             margin: 0.4em 0;
         }
-
+        
         .content-left label:before,
         .content-left label:after {
             width: 45px;
@@ -238,45 +237,45 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             margin: 0 1%;
             background-color: #CD853F;
         }
-
+        
         .content-left i {
             font-size: 1em;
             color: #CD853F;
         }
         /*--service--*/
-
+        
         .services-top {
             padding: 0em 0 4em;
         }
-
+        
         .services-left {
             float: right;
             text-align: right;
         }
-
+        
         .services-left h3 {
             font-size: 3em;
             color: #00FF7F;
             font-family: 'Raleway', sans-serif;
             font-weight: 700;
         }
-
+        
         .services-left span {
             font-size: 2em;
             color: #000;
         }
-
+        
         .services-right p {
             font-size: 1.15em;
             color: #fff;
             line-height: 2em;
         }
-
+        
         .services-left label {
             display: block;
             margin: 0.4em 0;
         }
-
+        
         .services-left label:before,
         .services-left label:after {
             width: 45px;
@@ -287,17 +286,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             margin: 0 1%;
             background-color: #fff;
         }
-
+        
         .services-left i {
             font-size: 1em;
             color: #fff;
         }
-
+        
         .services {
             background: #CD853F;
             padding: 6em 0;
         }
-
+        
         .service-grid1 i {
             font-size: 2em;
             border: 3px solid #000;
@@ -307,101 +306,101 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             line-height: 3em;
             color: #000;
         }
-
+        
         .ser-bottom {
             float: left;
             width: 14%;
         }
-
+        
         .ser-bottom img {
             border-radius: 100px;
         }
-
+        
         .ser-top {
             float: left;
             width: 80%;
             margin-left: 5%;
         }
-
+        
         .ser-top h5 {
             color: #00FF7F;
             font-size: 2em;
             font-family: 'Raleway', sans-serif;
             font-weight: 700;
         }
-
+        
         .ser-top p {
             font-size: 1.15em;
             color: #fff;
             line-height: 2em;
         }
-
+        
         .ser-bottom a {
             color: #fff;
             font-size: 1.5em;
         }
-
+        
         .service-bottom1 {
             margin-bottom: 2em;
         }
-
+        
         .service-bottom1:last-child {
             margin-bottom: 0em;
         }
-
+        
         .service-grid {
             margin-bottom: 8em;
         }
-
+        
         .service-grid:last-child {
             margin-bottom: 0em;
         }
-
+        
         .service-top {
             margin-top: 1.2em;
         }
         /*--events--*/
-
+        
         .news-bottom1 {
             position: relative;
         }
-
+        
         .news-bot {
             margin-bottom: 2em;
         }
-
+        
         .news-bot:last-child {
             margin-bottom: 0em;
         }
-
+        
         ul.grid-news li {
             display: inline-block;
         }
-
+        
         ul.grid-news li span {
             text-decoration: none;
             font-size: 1.1em;
             color: #fff;
             display: inline-block;
         }
-
+        
         ul.grid-news li i {
             margin: 0 5px 0 0;
             color: #00FF7F;
         }
-
+        
         ul.grid-news li b {
             color: #fff;
             margin: 0 1em;
         }
-
+        
         .news-bottom2 {
             position: absolute;
             bottom: 7%;
             width: 86%;
             left: 6%;
         }
-
+        
         .news-bottom2 p {
             font-size: 1.5em;
             color: #fff;
@@ -409,7 +408,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             font-weight: 700;
         }
         /*--conent--*/
-
+        
         .content-item {
             background: url(../images/ne.jpg) no-repeat;
             -moz-backface-visibility: hidden;
@@ -420,19 +419,19 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             position: relative;
             z-index: 9999;
         }
-
+        
         .content-item1 {
             background: url(../images/ne1.jpg) no-repeat;
         }
-
+        
         .content-item2 {
             background: url(../images/ev.jpg) no-repeat;
         }
-
+        
         .content-item3 {
             background: url(../images/ne3.jpg) no-repeat;
         }
-
+        
         .content-item .overlay {
             border-bottom: 100px solid #CD853F;
             border-left: 100px solid transparent;
@@ -448,7 +447,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             transition: all 0.5s ease-out;
             width: 0;
         }
-
+        
         .content-item:hover .overlay {
             border-bottom: 800px solid #CD853F;
             border-left: 800px solid transparent;
@@ -459,16 +458,16 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             z-index: -1;
         }
         /*--footer--*/
-
+        
         .footer {
             background-color: #353535;
             padding: 6em 0;
         }
-
+        
         ul.in li {
             display: inline-block;
         }
-
+        
         ul.in li a {
             color: #FFFFFF;
             font-size: 2em;
@@ -476,11 +475,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             padding: 0 2em 0 0;
             display: block;
         }
-
+        
         ul.in li a:hover {
             color: #CD853F;
         }
-
+        
         .footer-top span {
             font-size: 2em;
             color: #fff;
@@ -490,31 +489,31 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             display: block;
             margin: 3em 0;
         }
-
+        
         .footer-top p {
             font-size: 1.2em;
             color: #fff;
         }
-
+        
         .footer-top p a {
             text-decoration: none;
             color: #fff;
         }
-
+        
         p.footer-class {
             font-size: 1.2em;
             color: #fff;
         }
-
+        
         p.footer-class a {
             text-decoration: none;
             color: #CD853F;
         }
-
+        
         p.footer-class a:hover {
             color: #fff;
         }
-
+        
         .footer-bottom h2 {
             font-size: 2em;
             color: #fff;
@@ -522,19 +521,19 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             font-weight: 700;
             line-height: 1em;
         }
-
+        
         .footer-bottom p {
             font-size: 1.2em;
             color: #fff;
             margin-bottom: 1.5em;
             line-height: 2em;
         }
-
+        
         .footer-bottom label {
             display: block;
             margin: 0.4em 0;
         }
-
+        
         .footer-bottom label:before,
         .footer-bottom label:after {
             width: 45px;
@@ -545,17 +544,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             margin: 0 1%;
             background-color: #CD853F;
         }
-
+        
         .footer-bottom i {
             font-size: 1em;
             color: #CD853F;
         }
         /*----*/
-
+        
         .social-ic li {
             display: inline-block;
         }
-
+        
         .social-ic li a i {
             width: 40px;
             height: 40px;
@@ -569,68 +568,68 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             -ms-transition: 0.5s all;
             border: 3px double #CD853F;
         }
-
+        
         .social-ic li a i:hover {
             background: ##CD853F url(../images/img-sprite.png)no-repeat 0px 2px;
         }
-
+        
         .social-ic li a i.ic {
             background: url(../images/img-sprite.png)no-repeat -75px 2px;
         }
-
+        
         .social-ic li a i.ic:hover {
             background: #CD853F url(../images/img-sprite.png)no-repeat -75px 2px;
         }
-
+        
         .social-ic li a i.ic1 {
             background: url(../images/img-sprite.png)no-repeat -145px 2px;
         }
-
+        
         .social-ic li a i.ic1:hover {
             background: #CD853F url(../images/img-sprite.png)no-repeat -145px 2px;
         }
-
+        
         .social-ic li a i.ic2 {
             background: url(../images/img-sprite.png)no-repeat -229px 2px;
         }
-
+        
         .social-ic li a i.ic2:hover {
             background: #CD853F url(../images/img-sprite.png)no-repeat -229px 2px;
         }
-
+        
         .social-ic li a i.ic3 {
             background: url(../images/img-sprite.png)no-repeat -305px 2px;
         }
-
+        
         .social-ic li a i.ic3:hover {
             background: #CD853F url(../images/img-sprite.png)no-repeat -305px 2px;
         }
         /*--//footer--*/
         /*--about--*/
-
+        
         .events-left h3 {
             font-size: 3em;
             color: #00FF7F;
             font-family: 'Raleway', sans-serif;
             font-weight: 700;
         }
-
+        
         .events-left span {
             font-size: 2em;
             color: #000;
         }
-
+        
         .events-right p {
             font-size: 1.15em;
             color: #777;
             line-height: 2em;
         }
-
+        
         .events-left label {
             display: block;
             margin: 0.4em 0;
         }
-
+        
         .events-left label:before,
         .events-left label:after {
             width: 45px;
@@ -641,33 +640,33 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             margin: 0 1%;
             background-color: #CD853F;
         }
-
+        
         .events-left i {
             font-size: 1em;
             color: #CD853F;
         }
-
+        
         .events-bottom1 {
             padding: 0;
         }
-
+        
         .events-bottom2 {
             padding: 2.9em;
             background-color: #ECECEC;
         }
-
+        
         .events-bottom2 h3 {
             font-size: 2em;
             color: #00FF7F;
             font-family: 'Raleway', sans-serif;
             font-weight: 700;
         }
-
+        
         .events-bottom2 label {
             display: block;
             margin: 0.4em 0;
         }
-
+        
         .events-bottom2 label:before,
         .events-bottom2 label:after {
             width: 45px;
@@ -678,18 +677,18 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             margin: 0 1%;
             background-color: #CD853F;
         }
-
+        
         .events-bottom2 label i {
             font-size: 1em;
             color: #CD853F;
         }
-
+        
         .events-bottom2 p {
             font-size: 1.15em;
             color: #777;
             line-height: 2em;
         }
-
+        
         .read-more {
             text-align: center;
             text-decoration: none;
@@ -697,7 +696,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             margin-top: 1.8em;
             border-top: 1px solid #00FF7F;
         }
-
+        
         .read-more a {
             font-size: 1.3em;
             color: #00FF7F;
@@ -705,25 +704,25 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             display: inline-block;
             text-decoration: none;
         }
-
+        
         .events-bottom {
             margin-top: 4em;
         }
-
+        
         .events {
             padding: 6em 0;
         }
         /*--contact--*/
-
+        
         .contact {
             padding: 6em 0;
         }
-
+        
         .contact-para p {
             margin: 0 0;
             font-size: 1em;
         }
-
+        
         .contact-para h5,
         .contact-map h5 {
             margin: 0 0 1em;
@@ -732,22 +731,22 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             color: #CD853F;
             font-family: 'Raleway', sans-serif;
         }
-
+        
         p.your-para {
             color: #8d8d8d;
             margin: 0 0 0.3em;
         }
-
+        
         .grid-contact {
             padding: 0 0 1.5em;
         }
-
+        
         .contact-grid li.list-grid {
             list-style: none;
             border: 1px solid #8d8d8d;
             background: #fff;
         }
-
+        
         .contact-grid input[type="text"],
         .contact-grid input[type="password"] {
             width: 100%;
@@ -756,14 +755,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             border: 1px solid #8A8A8A;
             -webkit-appearance: none;
         }
-
+        
         .contact-grid p {
             margin: 0 0 0.5em;
             font-size: 1.2em;
             float: left;
             width: 85%;
         }
-
+        
         .contact-para textarea {
             resize: none;
             width: 95%;
@@ -774,7 +773,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             border: 1px solid #8d8d8d;
             -webkit-appearance: none;
         }
-
+        
         .contact-para input[type="submit"] {
             font-size: 1.3em;
             background: #00FF7F;
@@ -792,30 +791,30 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             -ms-transition: 0.5s all;
             -moz-transition: 0.5s all;
         }
-
+        
         p.msg-para {
             margin: 0 1em 0.6em;
         }
-
+        
         .contact-para input[type="submit"]:hover {
             background: #CD853F;
         }
-
+        
         .send {
             padding: 1em 1em 0;
         }
-
+        
         .map iframe {
             width: 100%;
             height: 242px;
             border: none;
         }
-
+        
         .contact-top {
             padding-top: 3em;
         }
         /*----*/
-
+        
         .address h4 {
             font-weight: 700;
             font-size: 1.4em;
@@ -823,94 +822,94 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             font-family: 'Raleway', sans-serif;
             margin: 1em 0 0.2em;
         }
-
+        
         .address p {
             font-size: 1.2em;
             color: #777;
             line-height: 2em;
         }
-
+        
         .address p a {
             color: #777;
             text-decoration: underline;
         }
-
+        
         .address p a:hover {
             color: #000;
             text-decoration: none;
         }
         /*--blog--*/
-
+        
         .blog-grid h3 {
             font-size: 1.3em;
             text-transform: uppercase;
             font-family: 'Raleway', sans-serif;
             font-weight: 700;
         }
-
+        
         .blog-grid h3 a {
             color: #CD853F;
             text-decoration: none;
         }
-
+        
         .blog-grid p {
             font-size: 1.15em;
             color: #777;
             line-height: 2em;
         }
-
+        
         .more {
             text-align: center;
             border-top: 1px solid #000;
             padding-top: 1em;
             margin-top: 2em;
         }
-
+        
         .date {
             margin: 1em 0;
         }
-
+        
         .blog-grid {
             padding: 1.5em 1em;
         }
-
+        
         .blog-in {
             border: 1px solid #BDBCBC;
         }
-
+        
         span.date-in {
             float: left;
             color: #7C7C7C;
             font-size: 1em;
         }
-
+        
         i.glyphicon.glyphicon-calendar {
             font-size: 14px;
             margin-right: 0.3em;
         }
-
+        
         a.comments {
             float: right;
             color: #7C7C7C;
             text-decoration: none;
             font-size: 1em;
         }
-
+        
         i.glyphicon.glyphicon-comment {
             font-size: 14px;
             margin-right: 0.3em;
             vertical-align: middle;
         }
-
+        
         .blog-head {
             padding: 2em 0 0;
         }
-
+        
         .blog {
             padding: 6em 0;
         }
         /*---*/
-
+        
         .link {
             outline: none;
             text-decoration: none;
@@ -918,7 +917,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             display: inline-block;
         }
         /* Yaku */
-
+        
         .link-yaku {
             color: #00FF7F;
             font-size: 1.2em;
@@ -929,7 +928,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             padding: 0px 0 3px;
             text-decoration: none;
         }
-
+        
         .link-yaku::before {
             content: '';
             position: absolute;
@@ -944,12 +943,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             -webkit-transition: -webkit-transform 0.5s;
             transition: transform 0.5s;
         }
-
+        
         .link-yaku:hover::before {
             -webkit-transform: translate3d(0, 0, 0);
             transform: translate3d(0, 0, 0);
         }
-
+        
         .link-yaku span {
             display: inline-block;
             position: relative;
@@ -958,38 +957,38 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             -webkit-transition: -webkit-transform 0.5s, color 0.5s;
             transition: transform 0.5s, color 0.5s;
         }
-
+        
         .link-yaku:hover span {
             color: #CD853F;
             -webkit-transform: perspective(1000px) rotate3d(0, 1, 0, 360deg);
             transform: perspective(1000px) rotate3d(0, 1, 0, 360deg);
         }
-
+        
         .link-yaku span:nth-child(4),
         .link-yaku:hover span:first-child {
             -webkit-transition-delay: 0s;
             transition-delay: 0s;
         }
-
+        
         .link-yaku span:nth-child(3),
         .link-yaku:hover span:nth-child(2) {
             -webkit-transition-delay: 0.1s;
             transition-delay: 0.1s;
         }
-
+        
         .link-yaku span:nth-child(2),
         .link-yaku:hover span:nth-child(3) {
             -webkit-transition-delay: 0.2s;
             transition-delay: 0.2s;
         }
-
+        
         .link-yaku span:first-child,
         .link-yaku:hover span:nth-child(4) {
             -webkit-transition-delay: 0.3s;
             transition-delay: 0.3s;
         }
         /*--single--*/
-
+        
         .single-top h4 {
             font-size: 1.5em;
             padding-top: 0.8em;
@@ -997,17 +996,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             font-family: 'Raleway', sans-serif;
             font-weight: 700;
         }
-
+        
         .lone-line p {
             font-size: 1.15em;
             color: #777;
             line-height: 2em;
         }
-
+        
         .lone-line p span {
             display: block;
         }
-
+        
         .lone-line p:before {
             content: "";
             background: url(../images/qu3.png) no-repeat;
@@ -1016,11 +1015,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             display: inline-block;
             padding-right: 2.3em;
         }
-
+        
         ul.grid-blog li {
             display: inline-block;
         }
-
+        
         ul.grid-blog li a,
         ul.grid-blog li span {
             text-decoration: none;
@@ -1029,46 +1028,46 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             display: inline-block;
             margin: 0 1em 0 0;
         }
-
+        
         ul.grid-blog li a:hover {
             color: #CD853F;
         }
-
+        
         ul.grid-blog li i {
             margin: 0 5px 0 0;
             color: #CD853F;
         }
-
+        
         ul.grid-blog {
             padding: 1.5em 0;
         }
-
+        
         .comment h3 {
             font-size: 2.5em;
             color: #CD853F;
             font-family: 'Raleway', sans-serif;
             font-weight: 700;
         }
-
+        
         .media-body p {
             font-size: 1.15em;
             color: #777;
             line-height: 2em;
             margin-top: 1em;
         }
-
+        
         .media-left,
         .media>.pull-left {
             padding-right: 22px;
         }
-
+        
         .leave h3 {
             font-size: 2.5em;
             color: #CD853F;
             font-family: 'Raleway', sans-serif;
             font-weight: 700;
         }
-
+        
         .single-grid input[type="text"],
         .single-grid textarea {
             background: none;
@@ -1081,24 +1080,24 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             border: 1px solid #A8A8A8;
             -webkit-appearance: none;
         }
-
+        
         .single-grid textarea {
             resize: none;
             height: 185px;
         }
-
+        
         .single-grid {
             width: 60%;
             padding-top: 1em;
         }
-
+        
         .single-grid label {
             font-weight: 400;
             color: #EB1478;
             margin-top: 1em;
             cursor: pointer;
         }
-
+        
         .single-grid input[type="submit"] {
             font-size: 1.3em;
             background: #00FF7F;
@@ -1116,73 +1115,73 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             -ms-transition: 0.5s all;
             -moz-transition: 0.5s all;
         }
-
+        
         .single-grid input[type="submit"]:hover {
             background: #CD853F;
         }
-
+        
         .media {
             margin-top: 25px;
         }
-
+        
         .comment {
             padding: 4em 0;
         }
         /*----*/
-
+        
         p.smith {
             float: left;
             padding: 0;
             font-size: 1.1em;
         }
-
+        
         p.smith a {
             text-decoration: none;
             color: #00FF7F;
             font-size: 1.1em;
             font-weight: 600;
         }
-
+        
         p.smith span {
             padding: 0 2em;
             color: #8A8A8A;
         }
-
+        
         p.reply {
             float: right;
             padding: 0;
             color: #8A8A8A;
             font-size: 1em;
         }
-
+        
         p.reply a {
             text-decoration: none;
             color: #00FF7F;
         }
-
+        
         p.reply a:hover {
             color: #EB1478;
         }
-
+        
         .code-in {
             padding-bottom: 1em;
         }
-
+        
         p.reply a i {
             padding-right: 0.8em;
         }
-
+        
         .media-left img {
             border-radius: 100px;
             border: 2px dashed #CD853F;
         }
-
+        
         .media-1 {
             padding-left: 7em;
         }
         /*--single--*/
         /*----*/
-
+        
         .search-in h4,
         .grid-categories h4,
         .blog-bottom h4 {
@@ -1191,14 +1190,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             font-weight: 700;
             font-size: 2em;
         }
-
+        
         .search {
             position: relative;
             border: none;
             background: #000;
             margin: 1em 0 0;
         }
-
+        
         .search input[type="text"] {
             outline: none;
             padding: 8px 15px;
@@ -1208,7 +1207,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             color: #fff;
             font-size: 1.2em;
         }
-
+        
         .search input[type="submit"] {
             width: 30px;
             height: 30px;
@@ -1220,17 +1219,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             outline: none;
             right: 0;
         }
-
+        
         .popular li {
             list-style: none;
             padding: 0.5em 0;
         }
-
+        
         .popular li a {
             color: #777;
             font-size: 1.15em;
         }
-
+        
         .popular li i {
             width: 17px;
             height: 17px;
@@ -1239,17 +1238,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             vertical-align: middle;
             margin-right: 16px;
         }
-
+        
         a.fashion {
             float: left;
             width: 34%;
         }
-
+        
         .grid-product {
             float: right;
             width: 62%;
         }
-
+        
         a.elit {
             font-size: 1em;
             color: #CD853F;
@@ -1257,37 +1256,37 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             font-family: 'Raleway', sans-serif;
             font-weight: 700;
         }
-
+        
         a.elit:hover {
             color: #000;
         }
-
+        
         .grid-product p {
             font-size: 1.15em;
             color: #777;
             line-height: 2em;
         }
-
+        
         .product-go {
             padding: 1em 0;
         }
-
+        
         .grid-categories {
             padding: 2em 0;
         }
-
+        
         ul.popular {
             padding: 1em 0 0;
         }
-
+        
         ul.start {
             text-align: center;
         }
-
+        
         ul.start li {
             display: inline-block;
         }
-
+        
         ul.start li a {
             text-decoration: none;
             color: #fff;
@@ -1295,11 +1294,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             background: #394962;
             padding: 0.5em 1em;
         }
-
+        
         ul.start li a:hover {
             background: #2AAACB;
         }
-
+        
         ul.start li span {
             background: #2AAACB;
             color: #fff;
@@ -1308,34 +1307,34 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         }
         /*--//blog--*/
         /*--menu--*/
-
+        
         .menu-top {
             padding: 0em 0 2em;
         }
-
+        
         .menu-left h3 {
             font-size: 3em;
             color: #00FF7F;
             font-family: 'Raleway', sans-serif;
             font-weight: 700;
         }
-
+        
         .menu-left span {
             font-size: 2em;
             color: #000;
         }
-
+        
         .menu-right p {
             font-size: 1.15em;
             color: #777;
             line-height: 2em;
         }
-
+        
         .menu-left label {
             display: block;
             margin: 0.4em 0;
         }
-
+        
         .menu-left label:before,
         .menu-left label:after {
             width: 45px;
@@ -1346,22 +1345,22 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             margin: 0 1%;
             background-color: #CD853F;
         }
-
+        
         .menu-left i {
             font-size: 1em;
             color: #CD853F;
         }
-
+        
         .btm-right {
             overflow: hidden;
             position: relative;
             display: block;
         }
-
+        
         .btm-right img {
             width: 100%;
         }
-
+        
         .btm-right .captn {
             display: inline-block;
             height: 100%;
@@ -1377,11 +1376,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             -webkit-transition: all 0.3s ease;
             transition: all 0.3s ease;
         }
-
+        
         .btm-right:hover .captn {
             bottom: 0%;
         }
-
+        
         .captn h4 {
             font-size: 2.2em;
             color: #fff;
@@ -1389,24 +1388,24 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             font-family: 'Raleway', sans-serif;
             font-weight: 700;
         }
-
+        
         .captn p {
             font-size: 2em;
             color: #fff;
         }
-
+        
         .btm-right:hover .captn h4 {
             margin-top: 90px;
         }
-
+        
         .menu-bottom {
             margin-top: 2em;
         }
-
+        
         .menu {
             padding: 6em 0;
         }
-
+        
         .captn:before {
             content: '';
             position: absolute;
@@ -1420,13 +1419,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             border-left: 30px solid transparent;
         }
         /*--typo--*/
-
+        
         .page-header h3 {
             font-size: 3em;
             color: #000;
             font-family: 'Oswald', sans-serif;
         }
-
+        
         .table>thead>tr>th,
         .table>tbody>tr>th,
         .table>tfoot>tr>th,
@@ -1438,39 +1437,39 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             vertical-align: top;
             border-top: none;
         }
-
+        
         .grid1 {
             margin: 1.5em 0 0;
         }
-
+        
         ul.nav.nav-pills {
             margin: 1.5em 0 0;
         }
-
+        
         .grid2 {
             margin: 1em 0 0;
         }
-
+        
         .page {
             padding: 6em 0;
         }
-
+        
         .bs-example {
             padding: 2em 0 0;
         }
-
+        
         .form-horizontal .control-label {
             text-align: left;
         }
         /*--//typo--*/
         /*--media-quires--*/
-
+        
         @media(max-width:1280px) {
             .banner h4 {
                 width: 60%;
             }
         }
-
+        
         @media(max-width:1080px) {
             .banner h4 {
                 width: 75%;
@@ -1513,7 +1512,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 padding: 1em;
             }
         }
-
+        
         @media(max-width:991px) {
             .banner h4 {
                 font-size: 2.5em;
@@ -1659,7 +1658,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 padding: 4em 0;
             }
         }
-
+        
         @media(max-width:767px) {
             .banner h4 {
                 font-size: 2em;
@@ -1769,7 +1768,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 font-size: 2.5em;
             }
         }
-
+        
         @media(max-width:600px) {
             .banner h4 {
                 font-size: 1.8em;
@@ -1904,7 +1903,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 padding-left: 0em;
             }
         }
-
+        
         @media(max-width:414px) {
             .logo h1 {
                 font-size: 2.3em;
